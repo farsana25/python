@@ -1,0 +1,6 @@
+# a=('red','green','blue','yellow')
+# print(a)
+# b=list(a)
+# print(b)
+# b.append('pink')
+# print(b)
