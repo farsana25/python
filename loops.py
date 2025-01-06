@@ -79,10 +79,10 @@
 #         print('the elements',b,'occurs',count,'times')
 
 
-a=input('enter the word:')
-for i in (a):
-    if(a.count(i)==1):
-        print(i,end='')
+# a=input('enter the word:')
+# for i in (a):
+#     if(a.count(i)==1):
+#         print(i,end='')
 
 
 
