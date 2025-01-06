@@ -1,5 +1,5 @@
 # for i in range(5):
-    # print('Farsana')
+#     print('Farsana')
 
 # sum=0
 # a=[1,2,3,4,5]
@@ -77,6 +77,13 @@
 #     if a[i]==b:
 #         count=count+1
 #         print('the elements',b,'occurs',count,'times')
+
+
+a=input('enter the word:')
+for i in (a):
+    if(a.count(i)==1):
+        print(i,end='')
+
 
 
 
