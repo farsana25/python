@@ -48,6 +48,26 @@
 # print(a)
 
 
+# a=input('enter the word :')
+# b=(a[::-1])
+# print(b)
+
+# word=input('enter the word: ')
+# reversed_word=word[::-1]
+# print(reversed_word)
+
+# s=input('enter the word :')
+# reversed_words=''.join(s.split()[::-1])
+# print(reversed_words)
+
+
+a=(1,2,9,8,3)
+a.sort()
+ans=[]
+for i in range(len(a)-1,-1,-1):
+    ans.append(a[i])
+    print(''.join(map(str,ans)))
+
 
 
 
