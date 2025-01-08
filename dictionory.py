@@ -17,9 +17,9 @@
 # a={}
 # for i in range(5):
 #   b=input('enter key')
-#  c=int(input('enter value'))
-# a.update({b:c})
-# print(a)
+#   c=int(input('enter value'))
+#   a.update({b:c})
+#   print(a)
 
 
 # a={}
