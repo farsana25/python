@@ -52,21 +52,68 @@
 # b=(a[::-1])
 # print(b)
 
+
+
 # word=input('enter the word: ')
 # reversed_word=word[::-1]
 # print(reversed_word)
+
+
 
 # s=input('enter the word :')
 # reversed_words=''.join(s.split()[::-1])
 # print(reversed_words)
 
 
-a=(1,2,9,8,3)
-a.sort()
-ans=[]
-for i in range(len(a)-1,-1,-1):
-    ans.append(a[i])
-    print(''.join(map(str,ans)))
+# list=[1,2,9,8,3]
+# list.sort(reverse=True)
+# print(list)
+
+
+# s=78439
+# sorted_num=int(''.join(sorted(str(s),reverse=True)))
+# print(sorted_num)
+
+# s='hello farsana'
+# s=s.replace('l','')
+# print(s)
+
+
+
+# num=input('enter an integer: ')
+# for digit in '0123456789':
+#   count=num.count(digit)
+#   if count>0:
+#     print(f"{digit}:{count}")
+
+num=123456789
+words=['zero','one','two','three','four','five','six','seven','eight','nine']
+new=''
+num=str(num)
+for i in num:
+    new+=words[ord(i)-ord('0')]+'  '
+print(new)
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
