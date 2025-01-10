@@ -86,13 +86,13 @@
 #   if count>0:
 #     print(f"{digit}:{count}")
 
-num=123456789
-words=['zero','one','two','three','four','five','six','seven','eight','nine']
-new=''
-num=str(num)
-for i in num:
-    new+=words[ord(i)-ord('0')]+'  '
-print(new)
+# num=123456789
+# words=['zero','one','two','three','four','five','six','seven','eight','nine']
+# new=''
+# num=str(num)
+# for i in num:
+#     new+=words[ord(i)-ord('0')]+'  '
+# print(new)
 
 
    
