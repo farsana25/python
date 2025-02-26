@@ -9,8 +9,8 @@
 # print(b)
 # c=a.values()
 # print(c)
-# a={'iza'8,'aysha':25}
 
+# a={'iza'8,'aysha':25}
 # for i in a.keys():
 #     print(i)
 
